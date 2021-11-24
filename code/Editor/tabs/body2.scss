@@ -1,0 +1,25 @@
+﻿
+.inner {
+	background-color: red;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: scroll;
+
+
+	.button {
+		width: 84px;
+		height: 84px;
+		margin: auto;
+		margin-top: 5px;
+		background-color: deepskyblue;
+
+		&.active {
+			background-color: pink;
+		}
+
+		&:active {
+			background-color: purple;
+		}
+	}
+}
